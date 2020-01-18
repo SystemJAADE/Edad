@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'application'
+
+
+description = 'Calcular la edad a partir de la fecha de nacimiento con jDateChooser'
+group = 'com.systemjaade'
+
+mainClassName = 'com.systemjaade.edad.Main'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.toedter:jcalendar:1.4'
+}
