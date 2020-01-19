@@ -17,7 +17,6 @@ public class MetodoGenericos {
     String an = (periodo.getYears() == 1) ? "año" : "años";
     String me = (periodo.getMonths() == 1) ? "mes" : "meses";
     String di = (periodo.getDays() == 1) ? "día" : "días";
-//    return periodo.getYears() + " años, y " + periodo.getMonths() + " meses, y " + periodo.getDays() + " días";
     return periodo.getYears() + " " + an + ", y " + periodo.getMonths() + " " + me + ", y " + periodo.getDays() + " " + di;
   }
 }
